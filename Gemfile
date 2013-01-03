@@ -5,9 +5,9 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
+group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.5.0'
+  gem 'rspec-rails'
 end
 
 group :production do
@@ -15,8 +15,9 @@ group :production do
 end
 
 group :test do
-  gem 'rspec', '2.5.0'
-  gem 'webrat', '0.7.1'
+  gem 'rspec'
+  gem 'webrat'
+  gem 'spork'
 end
 
 
